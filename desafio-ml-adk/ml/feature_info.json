@@ -1,0 +1,157 @@
+{
+  "target": "ideb",
+  "categorical_features": [
+    "regiao",
+    "uf",
+    "dependencia_administrativa",
+    "localizacao",
+    "etapa_ensino"
+  ],
+  "numeric_features": [
+    "numero_alunos",
+    "numero_professores",
+    "pct_prof_ensino_superior",
+    "tem_biblioteca",
+    "tem_lab_informatica",
+    "tem_lab_ciencias",
+    "tem_quadra_esportes",
+    "tem_internet",
+    "tem_agua_potavel",
+    "tem_energia_eletrica",
+    "tem_jornada_estendida",
+    "taxa_aprovacao",
+    "nivel_socioeconomico"
+  ],
+  "categorical_values": {
+    "regiao": [
+      "Centro-Oeste",
+      "Nordeste",
+      "Norte",
+      "Sudeste",
+      "Sul"
+    ],
+    "uf": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "dependencia_administrativa": [
+      "Estadual",
+      "Federal",
+      "Municipal",
+      "Privada"
+    ],
+    "localizacao": [
+      "Rural",
+      "Urbana"
+    ],
+    "etapa_ensino": [
+      "Anos Finais",
+      "Anos Iniciais",
+      "Ensino Médio"
+    ]
+  },
+  "numeric_ranges": {
+    "numero_alunos": {
+      "min": 20.0,
+      "max": 3000.0,
+      "mean": 334.805
+    },
+    "numero_professores": {
+      "min": 3.0,
+      "max": 209.0,
+      "mean": 19.3545
+    },
+    "pct_prof_ensino_superior": {
+      "min": 0.438,
+      "max": 1.0,
+      "mean": 0.76952125
+    },
+    "tem_biblioteca": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.50075
+    },
+    "tem_lab_informatica": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.42175
+    },
+    "tem_lab_ciencias": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.25025
+    },
+    "tem_quadra_esportes": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.45275
+    },
+    "tem_internet": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.64025
+    },
+    "tem_agua_potavel": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.73575
+    },
+    "tem_energia_eletrica": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.82725
+    },
+    "tem_jornada_estendida": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.15775
+    },
+    "taxa_aprovacao": {
+      "min": 0.598,
+      "max": 1.0,
+      "mean": 0.8545309999999999
+    },
+    "nivel_socioeconomico": {
+      "min": 1.0,
+      "max": 7.0,
+      "mean": 4.0069275
+    }
+  },
+  "top_feature_importances": {
+    "num__nivel_socioeconomico": 0.5997746425209438,
+    "num__taxa_aprovacao": 0.10555481608422658,
+    "cat__localizacao_Urbana": 0.06543239516972835,
+    "cat__localizacao_Rural": 0.04509068925453672,
+    "num__pct_prof_ensino_superior": 0.042093789401306536,
+    "num__numero_alunos": 0.02050005172249881,
+    "num__tem_jornada_estendida": 0.01580166201117416,
+    "num__numero_professores": 0.015365718660394758,
+    "num__tem_internet": 0.013439133437959841,
+    "num__tem_biblioteca": 0.0118664824129214
+  }
+}
